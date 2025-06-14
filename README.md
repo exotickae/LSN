@@ -89,4 +89,5 @@ Whether you're building for privacy, permanence, or prep, the Light-Speed Node g
 ## 💬 Questions / Contributions?
 
 Open a GitHub Issue or email directly:  
-📫 `kaedentaylor@yourdomain.com` *(optional placeholder)*
+📫 `kaedentaylor12345@gmail.com` *(optional placeholder)*
+
