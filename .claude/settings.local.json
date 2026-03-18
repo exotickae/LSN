@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -lh /c/Users/mkkk2/Desktop/LSN/venv/.claude/worktrees/stoic-curie/*.lsn /c/Users/mkkk2/Desktop/LSN/venv/.claude/worktrees/stoic-curie/*.key)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
