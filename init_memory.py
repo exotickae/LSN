@@ -17,16 +17,16 @@ else:
 
 fernet = Fernet(key)
 
-# Setup basic memory
-memory = {
-    "user": "Kaeden",
-    "notes": [],
-    "history": []
-}
-
-# Encrypt and save memory
-encrypted = fernet.encrypt(json.dumps(memory).encode())
-with open(MEMORY_FILE, "wb") as f:
-    f.write(encrypted)
-
-print("✅ Encrypted memory file created.")
+# Only create memory file if it doesn't already exist or is empty
+if not os.path.exists(MEMORY_FILE) or os.path.getsize(MEMORY_FILE) == 0:
+    memory = {
+        "user": "Kaeden",
+        "notes": [],
+        "history": []
+    }
+    encrypted = fernet.encrypt(json.dumps(memory).encode())
+    with open(MEMORY_FILE, "wb") as f:
+        f.write(encrypted)
+    print("✅ Encrypted memory file created.")
+else:
+    print("ℹ️ Memory file already exists, skipping initialization.")

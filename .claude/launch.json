@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Light-Speed Node (Streamlit)",
+      "runtimeExecutable": "C:/Users/mkkk2/Desktop/LSN/venv/Scripts/streamlit.exe",
+      "runtimeArgs": ["run", "memory_ui.py", "--server.port", "8501"],
+      "port": 8501
+    }
+  ]
+}
