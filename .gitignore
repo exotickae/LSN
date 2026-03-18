@@ -1,0 +1,16 @@
+# Model files (too large for GitHub — store locally)
+*.gguf
+models/
+
+# Encrypted memory & key (sensitive, local only)
+memory.key
+memory.lsn
+.ambient_cache.json
+.approved_peers.json
+.node_id
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
